@@ -13,7 +13,7 @@ function Howitworks() {
           style={{
           width: "100%",
              
-        }} height={350} src='https://youtu.be/ChaB34UsOxI?si=NEzWMKVkKNpyIEZ8' />        
+        }} height={350} src='https://www.youtube.com/watch?v=w-zEJwg0-3Q' />        
         </div>
     </div>
   )
