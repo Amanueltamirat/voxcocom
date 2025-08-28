@@ -3,13 +3,13 @@ import React from 'react'
 
 function MiddleSection() {
   return (
-    <div className='m-10'>
+    <div className='m-10 font-sans'>
         <div className='my-20 text-center'>
         <h2 className='text-5xl font-semibold mb-5'>What We Do</h2>
         <p className='text-xl'>International Toll Free, Premium and Virtual Numbers.</p>
         </div>
     <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xl:grid-cols-3 gap-5 '>
-        <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-blue-400 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
+        <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-gray-600 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
             
                     <div className=' relative z-10  group-hover:hidden h-[250px]'>
                         <h2 className='group-hover:text-white text-2xl font-semibold pb-5 text-gray-900'>International Toll free numbers
@@ -39,7 +39,7 @@ function MiddleSection() {
                     </div>
         </div>
 
-          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-blue-400 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
+          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-gray-600 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
             
                     <div className=' relative z-10  group-hover:hidden h-[200px]'>
                         <h2 className='group-hover:text-white text-2xl font-semibold pb-5 text-gray-900'>Virtual mobile numbers
@@ -65,7 +65,7 @@ function MiddleSection() {
                     </div>
         </div>
 
-          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-blue-400 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
+          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-gray-600 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
             
                     <div className=' relative z-10  group-hover:hidden h-[200px]'>
                         <h2 className='group-hover:text-white text-2xl font-semibold pb-5 text-gray-900'>International Premium Rate Numbers
@@ -96,7 +96,7 @@ function MiddleSection() {
                     </div>
         </div>
 
-          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-blue-400 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
+          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-gray-600 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
             
                     <div className=' relative z-10  group-hover:hidden '>
                         <h2 className='group-hover:text-white text-2xl font-semibold pb-5 text-gray-900'>Extensive Coverage
@@ -127,7 +127,7 @@ function MiddleSection() {
                     </div>
         </div>
 
-        <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-blue-400 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
+        <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-gray-600 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
             
                     <div className=' relative z-10  group-hover:hidden h-[200px]'>
                         <h2 className='group-hover:text-white text-2xl font-semibold pb-5 text-gray-900'>Global Inbound Numbers
@@ -148,14 +148,14 @@ function MiddleSection() {
                     </div>
         </div>
 
-         <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-blue-400 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
+         <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-gray-600 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
             
-                    <div className=' relative z-10  group-hover:hidden h-[200px]'>
+                    <div className=' relative z-10  group-hover:hidden h-[250px]'>
                         <h2 className='group-hover:text-white text-2xl font-semibold pb-5 text-gray-900'>Two Way voice services
                          </h2>
                         <p className='group-hover:text-gray-200 tracking-[0.05rem] font-semibold text-gray-800' >Two-way voice services offer you the ability to make and receive local and international calls and have access to emergency services and number portability in multiple countries across the world from a single vendor through a single SIP connection to our Global Voice Network.</p>
                     </div>
-                    <div className=' relative z-10  hidden group-hover:block h-[200px]'>
+                    <div className=' relative z-10  hidden group-hover:block h-[250px]'>
 
                          <div className='flex items-center gap-2'>
                             <Check className='text-white' />
@@ -174,14 +174,14 @@ function MiddleSection() {
                     </div>
         </div>
 
-          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-blue-400 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
+          <div className='relative overflow-hidden flex gap-5 p-5  bg-white transition-all duration-200 shadow-sm shadow-gray-700 rounded-lg before:absolute before:inset-0 before:bg-gray-600 before:transform before:origin-bottom before:scale-y-0 hover:before:scale-y-100 before:transition-transform before:duration-300 before:ease-in-out cursor-pointer group'>
             
-                    <div className=' relative z-10  group-hover:hidden h-[200px]'>
+                    <div className=' relative z-10  group-hover:hidden h-[250px]'>
                         <h2 className='group-hover:text-white text-2xl font-semibold pb-5 text-gray-900'>Voice Termination
                          </h2>
                         <p className='group-hover:text-gray-200 tracking-[0.05rem] font-semibold text-gray-800' >Voxco offer cost-efficient and high-quality wholesale voice termination across our global network.</p>
                     </div>
-                    <div className=' relative z-10  hidden group-hover:block h-[200px]'>
+                    <div className=' relative z-10  hidden group-hover:block h-[250px]'>
 
                          <div className='flex items-center gap-2'>
                             <Check className='text-white' />

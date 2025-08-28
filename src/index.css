@@ -175,4 +175,13 @@ body{
   .nav-menu {
     display: none;
   }
+  .res{
+    flex-direction: column;
+  }
+  .res .btn{
+    width: 100%;
+  }
+  .new-h{
+    font-size: medium;
+  }
 }

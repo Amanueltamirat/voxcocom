@@ -6,6 +6,8 @@ import img1 from '../assets/employee-3.avif';
 import img2 from '../assets/employee-2.jpg';
 import img3 from '../assets/employee-1.webp';
 import MiddleSection from '@/components/section/MiddleSection';
+import Contact from '@/components/contact/Contact';
+import Howitworks from '@/components/Howitworks';
 
 
 
@@ -33,7 +35,9 @@ const HomePage = () => {
     <div className="App">
       <Hero images={heroImages} interval={3000} />
       <UpperSection/>
+      <Howitworks/>
       <MiddleSection/>
+      <Contact/>
     </div>
   );
 };

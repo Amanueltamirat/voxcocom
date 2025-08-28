@@ -20,9 +20,9 @@ function Neworder() {
     <div className='py-10'>
         <h2 className='text-xl font-semibold mb-5'>Search DID</h2>
         <div>
-    <div className="flex w-full max-w-sm items-center gap-2">
+    <div className="res flex sm:flex-col md:felx-col lg:flex-row xl:flex-row w-full max-w-sm items-center gap-5">
        <Select>
-      <SelectTrigger className="w-[180px]">
+      <SelectTrigger className="w-[100%]">
         <SelectValue placeholder="Select Country" />
       </SelectTrigger>
       <SelectContent className='min-w-[35%]'>
@@ -40,8 +40,8 @@ function Neworder() {
       </SelectContent>
     </Select>
        <Input className='min-w-[35%]' type="prefix" placeholder="Prefix" />
-        <Input className='min-w-[35%]' type="iso" placeholder="ISO" />
-      <Button className='bg-indigo-800 text-gray-200 cursor-pointer hover:bg-indigo-600' type="submit" variant="outline">
+        <Input className='min-w-[35%]' type="iso" placeholder="Number Type" />
+      <Button className='bg-indigo-800 btn md:w-[100%] lg:w-[50%] xl-w-[50%] sm:w-[100%] text-gray-200 cursor-pointer hover:bg-indigo-600' type="submit" variant="outline">
         Search
       </Button>
     </div>
