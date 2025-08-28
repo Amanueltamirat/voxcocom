@@ -86,11 +86,10 @@ function MiddleSection() {
           />
         ))}
       </div>
-=======
-import { AudioLines, BringToFront, Check, GlobeLock, ShieldQuestionMark, TabletSmartphone } from 'lucide-react'
-import React from 'react'
-
-function MiddleSection() {
+    </div>
+  )
+  }
+{/* function MiddleSection() {
   return (
     <div className='m-10 font-sans'>
         <div className='my-20 text-center'>
@@ -307,6 +306,6 @@ function MiddleSection() {
     </div>
     </div>
   );
-}
+} */}
 
 export default MiddleSection;
