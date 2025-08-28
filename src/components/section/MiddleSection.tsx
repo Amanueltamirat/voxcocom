@@ -2,7 +2,7 @@
 import React from "react";
 import FeatureCard from "./src/components/FeatureCard"; // adjust this path if needed
 import { Phone, Smartphone, Sparkles, Map, Globe, PhoneCall } from "lucide-react";
-
+// Accepted
 function MiddleSection() {
   const items = [
     {
