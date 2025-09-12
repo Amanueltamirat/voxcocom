@@ -75,6 +75,16 @@ body{
   justify-content: center;
 }
 
+.sliding-text-container{
+        position: absolute;
+        font-size: 10vh;
+        top: -20px;
+        white-space:nowrap;
+        color: black;
+        width: 50%;
+        font-weight: bold;
+       }
+
 .slide-content {
   color: white;
   text-align: center;
