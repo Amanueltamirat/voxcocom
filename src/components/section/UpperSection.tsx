@@ -52,6 +52,23 @@ const sliderVariants = {
     }
 }
 
+const sliderVariants = {
+    initial:{
+        x:0,
+        
+    },
+     animate:{
+        x:'100%',
+        transition:{
+        repeat:Infinity,
+        repeatType:'mirror',
+        duration:5,
+       
+        },
+
+    }
+}
+
 function UpperSection() {
 
  const ref = useRef();
