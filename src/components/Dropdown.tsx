@@ -24,76 +24,22 @@ function Dropdown() {
       <DropdownMenuTrigger asChild className='outline-none'>
         <Button className='cursor-pointer outline-none rounded-lg text-black text-xl font-semibold border-gray-700 border-lg' variant="default" >MENU</Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 bg-white p-4" align="start">
+      <DropdownMenuContent className="w-64 bg-white p-4 mr-5" align="start">
         <DropdownMenuGroup >
           <DropdownMenuItem>
             <Link className='text-sm hover:text-gray-500' to='/products'>
-              Voxcom Products
+              Home
             </Link> 
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Link className='text-sm hover:text-gray-500' to='/voxco-number'>
-              Voxcom Numbers
+              Order Numbers
             </Link>
           </DropdownMenuItem>
         </DropdownMenuGroup>
 
         <DropdownMenuSeparator />
-        <DropdownMenuGroup>
-
-          <DropdownMenuSub>
-
-            <DropdownMenuSubTrigger className='text-sm hover:text-gray-500 cursor-pointer'>Number Requests</DropdownMenuSubTrigger>
-            <DropdownMenuPortal>
-              <DropdownMenuSubContent className='bg-white'>
-                <DropdownMenuItem>
-                    <Link className='text-sm hover:text-gray-500' to={'/'}> Number Inventory
-                      </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                    <Link  className='text-sm hover:text-gray-500' to={'/'}>Orders Management</Link>
-                </DropdownMenuItem>
-              </DropdownMenuSubContent>
-            </DropdownMenuPortal>
-          </DropdownMenuSub>
-
-          <DropdownMenuSub >
-            <DropdownMenuSubTrigger className='text-sm hover:text-gray-500 cursor-pointer'>Port In Requests</DropdownMenuSubTrigger>
-            <DropdownMenuPortal>
-              <DropdownMenuSubContent className='bg-white'>
-                <DropdownMenuItem>
-                    <Link className='text-sm hover:text-gray-500' to={'/'}>
-                       Port In Requests
-                    </Link>
-                </DropdownMenuItem>
-              </DropdownMenuSubContent>
-            </DropdownMenuPortal>
-          </DropdownMenuSub>
-
-          
-          <DropdownMenuSub >
-            <DropdownMenuSubTrigger className='text-sm hover:text-gray-500 cursor-pointer'>Port Out Requests</DropdownMenuSubTrigger>
-            <DropdownMenuPortal>
-              <DropdownMenuSubContent className='bg-white'>
-                <DropdownMenuItem>
-                    <Link className='text-sm hover:text-gray-500' to={'/'}>Port Out Requests</Link>
-                </DropdownMenuItem>
-              </DropdownMenuSubContent>
-            </DropdownMenuPortal>
-          </DropdownMenuSub>
-
-           <DropdownMenuSub >
-            <DropdownMenuSubTrigger className='cursor-pointer text-sm hover:text-gray-500'>Compliance Information</DropdownMenuSubTrigger>
-            <DropdownMenuPortal>
-              <DropdownMenuSubContent className='bg-white'>
-                <DropdownMenuItem>
-                    <Link className='text-sm hover:text-gray-500' to={'/'}>Compliance Information</Link>
-                </DropdownMenuItem>
-
-              </DropdownMenuSubContent>
-            </DropdownMenuPortal>
-          </DropdownMenuSub>
-
+        <DropdownMenuGroup>       
            <DropdownMenuSub >
             <DropdownMenuSubTrigger className='text-sm hover:text-gray-500 cursor-pointer'>Portal Admin</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
