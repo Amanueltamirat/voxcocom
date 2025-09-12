@@ -35,32 +35,21 @@ const variantsTwo = {
 }
 
 
-const textVariants = {
-  initial:{
-    x:-500,
-    opacity:0
-  },
-  animate:{
-    x:0,
-    opacity:1,
-    transition:{
-      duration:1
-    }
-  }
-}
+const sliderVariants = {
+    initial:{
+        x:0,
+        
+    },
+     animate:{
+        x:'100%',
+        transition:{
+        repeat:Infinity,
+        repeatType:'mirror',
+        duration:5,
+       
+        },
 
-const textVariantsRight = {
-  initial:{
-    x:500,
-    opacity:0
-  },
-  animate:{
-    x:0,
-    opacity:1,
-    transition:{
-      duration:1
     }
-  }
 }
 
 const sliderVariants = {
